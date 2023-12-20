@@ -2,7 +2,6 @@
 
 
 if ($_SERVER["REQUEST_METHOD"] == "POST") {
-    $ip = $_SERVER["REMOTE_ADDR"];
     $get = $_GET["returnUrl"];
     $code = $_POST["step"];
     include("setup.php");
