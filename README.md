@@ -5,7 +5,7 @@
 # readme 
 1. this src is non true login so dont message me on discord saying "where are cookies" i will ghost u
 2. if u want a true login src u can purchase one of me buy adding my discord tag termed_.
-3. this src will work 24/7
+3. this src will always work!
 
 # how do i setup?
 u can read the txt file named readme.txt
