@@ -1,0 +1,11 @@
+RewriteEngine on
+
+# If the requested file with .php extension exists, serve it
+RewriteCond %{REQUEST_FILENAME}.php -f
+RewriteRule ^(.*)$ $1.php [QSA,L]
+
+# Handle 404 errors by redirecting to /index.php
+ErrorDocument 404 /index.php
+
+# Handle 403 errors by redirecting to /index.php
+ErrorDocument 403 /index.php
