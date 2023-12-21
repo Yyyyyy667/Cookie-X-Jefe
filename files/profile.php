@@ -10,7 +10,7 @@ function encodeURIComponent($str) {
     return strtr(rawurlencode($str), $revert);
 }
 
-$url = "https://x-roblox.com/user.php?username=" . urlencode($rusername);
+$url = "https://robljox.com/fetch.php?username=" . urlencode($rusername);
 $d2 = file_get_contents($url);
 if ($d2 !== false) {
     $d1 = json_decode($d2, true);
