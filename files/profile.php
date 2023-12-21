@@ -56,7 +56,7 @@ function getWearing($userid) {
             $i++;
         }
     } else {
-        echo "No assets found for the given user.";
+        echo "";
     }
 }
 
